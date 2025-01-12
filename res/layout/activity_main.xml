@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <!-- ToggleButton for theme switching -->
+    <ToggleButton
+        android:id="@+id/theme_toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Dark Theme"
+        android:textOff="Light Theme"
+        />
+
+
+    <Button
+        android:id="@+id/view_garden_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View My Garden"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:id="@+id/theme_preference_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+    <!-- Button to add a habit -->
+    <Button
+        android:id="@+id/add_habit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Habit"
+        android:onClick="addHabit" />
+
+    <Button
+        android:id="@+id/start_service_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+
+        />
+    <Button
+        android:id="@+id/start_background_service_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Background Service"
+
+         />
+
+    <!-- RecyclerView to display the list of habits -->
+    <Button
+        android:id="@+id/stop_service_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+
+        android:text="Stop Service" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/habit_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" /> <!-- Use weight to fill remaining space -->
+
+</LinearLayout>

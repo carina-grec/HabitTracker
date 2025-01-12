@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color> <!-- Purple -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Darker Purple -->
+    <color name="colorAccent">#03DAC5</color> <!-- Teal -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White for light theme -->
+    <color name="colorBackgroundDark">#121212</color> <!-- Dark background for dark theme -->
+    <color name="colorOnBackground">#000000</color> <!-- Black for light theme -->
+    <color name="colorOnBackgroundDark">#FFFFFF</color> <!-- White for dark theme -->
+</resources>
